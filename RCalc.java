@@ -4,7 +4,7 @@ public class RCalc{
     }
      public float subtract(float a, float b){
         
-        return 0;
+        return a-b;
     }
      public float multiply(float a, float b){
         
