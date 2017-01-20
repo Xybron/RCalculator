@@ -1,16 +1,14 @@
 public class RCalc{
-    public float add(float a, float b){
-        return a+b;
-    }
-     public float subtract(float a, float b){
-        return a-b;
-    }
-     public float multiply(float a, float b){
-        return a*b;
-    }
-     public float divide(float a, float b){
-        
-        return 0;
+    public static void main(String[] args){
+        if(args[0].equalsIgnoreCase("add")){
+            double num1 = Double.parseDouble(args[1]);
+            double num2 = Double.parseDouble(args[2]);
+
+            System.out.println(num1 + num2);
+        }
     }
     
 }
+
+//multoply and subtract will have their own branches.
+//Pattner pulls your code and 
